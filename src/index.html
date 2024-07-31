@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <link href="./output.css" rel="stylesheet">
+  <title>TAILWINDS CSS - APUNTES BÁSICOS</title>
+</head>
+
+<body>
+  <h1 class="bg-red-700 text-slate-300 my-1 text-center">TAILWIND CSS</h1>
+  <h2 class="bg-[#bef264] text-[#2563eb] my-1 text-center">COLORES PERSONALIZADOS</h2>
+  <h2 class="bg-yellow-800 text-white my-1 text-center">COLORES ESPECÍFICOS</h2>
+  <h2 class="bg-azul-claro text-azul-oscuro my-1 text-center">PRUEBA DE TAILWIND Y SUS COLORES</h2>
+  <button
+    class="bg-sky-700 hover:bg-sky-950 text-gray-900 hover:text-white p-2 rounded-lg w-[800px] mx-auto block my-2">
+    BOTÓN con hover border-radius padding y más ,display block y margin auto (mx-auto)
+  </button>
+  <button
+    class="bg-sky-700/70 hover:bg-sky-950 text-gray-900 hover:text-white p-2 rounded-lg w-[500px] mx-auto block my-2">
+    BOTÓN CON OPACIDAD y hover border-radius padding
+  </button>
+  <!-- uso de gradientes con hover padding y border-radius, display block y margin auto (mx-auto) -->
+  <button type="button"
+    class="bg-gradient-to-r from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-500 p-2 rounded-[13px] w-24 mx-auto block my-1">
+    HOVER ME
+  </button>
+  <!-- uso de gradientes con variables -->
+  <h2 class="bg-slate-500 text-center text-xl">GRADIENTES</h2>
+  <div class="bg-gradient-to-r from-indigo-500 border-cyan-900 border-2 w-full h-6 my-1"></div>
+  <div class="bg-gradient-to-r from-cyan-500 to-blue-500 w-full h-6 my-1"></div>
+  <div class="bg-gradient-to-r from-indigo-200 via-purple-400 to-pink-700 w-full h-6 my-1"></div>
+  <div class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ... w-full h-6 my-1">
+  </div>
+  <div class="text-3xl font-bold text-center my-2">
+    <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-600">HELLO WORLD AND
+      TAILWIND</span>
+  </div>
+  <!-- Uso de medidas con variables -->
+  <h2 class="bg-emerald-200 text-center text-xl">TAILWINDS MEDIDAS</h2>
+  <div class="bg-gradient-to-r from-indigo-300 to-cyan-900 w-96 h-6 my-1 text-center mx-auto">Medida w-96</div>
+  <div class="bg-gradient-to-r from-indigo-800 to-cyan-400 w-[450px] h-6 my-1 text-center mx-auto">Medida w-[450px]
+  </div>
+  <div class="bg-gradient-to-r from-amber-200 to-violet-500 w-18 my-1 text-center mx-auto">Medida w-1/2 que se
+    configuró en el tailwind.config.js con spacing
+  </div>
+  <div class="bg-gradient-to-r from-indigo-300 to-cyan-900 w-20 h-full my-1 text-center mx-auto">
+    Medida w-20 que se configuró en el tailwind.config.js con width 20: 500px y h-full que es el 100% de la etiqueta
+  </div>
+  <h2 class="bg-indigo-400 h-full text-center">TAILWINDS ALTURA</h2>
+  <div class="bg-orange-200 h-screen my-1">ALtura del div es el 100% de la ventana background-color: orange-200, ocupa
+    toda la vista disponible en el navegador</div>
+  <div class="bg-slate-400 h-full my-2 text-center">ALtura del div es el 100% de la etiqueta background-color:
+    orange-200, ocupa el 100% de la etiqueta/contenedor
+  </div>
+</body>
+
+</html>
