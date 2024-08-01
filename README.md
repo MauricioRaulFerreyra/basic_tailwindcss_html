@@ -8,7 +8,6 @@ Este es un proyecto simple de HTML que utiliza Tailwind CSS para practicar el us
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Estructura del Proyecto](#estructura-del-proyecto)
-- [Créditos](#créditos)
 
 ## Descripción
 
